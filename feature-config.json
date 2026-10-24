@@ -1,0 +1,52 @@
+{
+  "project": "actively",
+  "title": "Write the founder update",
+  "description": "Draft an evidence-linked founder update and decision requests from the current synthetic operating snapshot.",
+  "capability": "founder-update",
+  "sections": [
+    {
+      "id": "narrative",
+      "title": "Executive narrative"
+    },
+    {
+      "id": "decisions",
+      "title": "Founder decision requests"
+    },
+    {
+      "id": "actions",
+      "title": "Accountable next actions"
+    }
+  ],
+  "gatewayTask": "cos.actively.founder-update.v1",
+  "gatewayProject": "sid-cos-actively-decisions-20261021",
+  "company": "Actively AI",
+  "purpose": "Turn operating notes into an evidence-linked update and a clear decision request.",
+  "label": "Operating notes for review",
+  "notesKey": "scenario",
+  "example": "Synthetic example: A customer pilot is waiting on security review; the engineering owner is assigned but the client reviewer is unknown. A growth experiment competes for the same team this week. Bookings and pipeline are separate; no current totals or ROI baseline supplied. Ask the founder to resolve the resourcing tradeoff.",
+  "support": {
+    "review": "Do not invent metrics, board history or business results. Separate observed notes from proposed decisions.",
+    "deployments": "Deployment status and ownership are only as supplied in the notes. Unknown reviewers and missing dates remain unknown."
+  },
+  "color": "#66351f",
+  "bg": "#fff9f2",
+  "accent": "#f5bea3",
+  "url": "https://www.actively.ai",
+  "evidenceIds": [
+    "scenario",
+    "review",
+    "deployments",
+    "limits"
+  ],
+  "paused": false,
+  "sources": [
+    {
+      "label": "Actively AI \u2014 role responsibilities",
+      "url": "http://www.actively.ai/careers?gh_jid=5177402008"
+    },
+    {
+      "label": "Actively AI \u2014 product context",
+      "url": "https://www.actively.ai"
+    }
+  ]
+}
